@@ -1,8 +1,6 @@
 from pytube import YouTube
 import pytube
-from pytube.helpers import regex_search
 
-save_location = ""
 # https://www.youtube.com/watch?v=PPu1ekDSKw8
 
 link = str(input("\033[92m \n Enter youtube video link: \033[00m \n")).strip()
